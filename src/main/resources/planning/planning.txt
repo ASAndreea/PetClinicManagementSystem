@@ -1,0 +1,27 @@
+*APLICATTION
++ the user wil interract with the system via a command line interface where he\she cand choose an option;
++ the desktop application will not have any visual friendly frames
+
++ As an user i should be able to add a new veterinarian. I should be able to specify firstname, lastname, address, speciality
++ As an user i should be able to view the details of an existing veterianian. i Should be able to view he following data: firstname, lastname, address, speciality, id
++ As an user i should be able to update all existing veterianian by choosing the id. i should be able to edit : firstname, lastname, address, speciality.
++ As an user i should be able to delete an existing veterinarian by choosing the id.
++ As an user i should be able to view all vets. I should be able to view the following data : id/firstname/lastname/
+
+*PET
++ As an user i should be able to add a new pet. I should be able to specify name,race, birthdate, isVaccinated, ownerName
++ As an user i should be able to view the details of an existing pet. i Should be able to view he following data: name,race, birthdate, isVaccinated, ownerName, id
++ As an user i should be able to update all existing pet by choosing the id. i should be able to edit : name,race, birthdate, isVaccinated, ownerName.
++ As an user i should be able to delete an existing pet by choosing the id.
++ As an user i should be able to view all pets. I should be able to view the following data : id/name,race, ownerName
+
+*CONSULT
++ as an user i should be able to add a Consult.  i should be able to specify : vet id (of an existing vet)  pet id, (of an existing pet), date, description.
++ as an user i should be able to view all the consults. i should be able to view the following data : vet id (of an existing vet)  pet id, (of an existing pet), date, description.
++ as an user i should be able to update only the description for a specific consult by choosing the id.
+
+*IMPORT DATA
++As an user i should be able to import all the data from a CSV file (ca un fisier excel)
+
+* OPTIONAL
++ As an user i should be able to authenticate before using the application.
